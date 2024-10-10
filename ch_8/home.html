@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8---Final Assignment HTML---Home Page</title>
+    <style>
+        /* Style for the tab */
+        .tab{
+            /* margin-top: 15px; */
+            border: 2px solid rgb(49, 43, 134);
+            width: 100%;
+            height:200px;
+            border-radius: 15px;
+            background-color: rgb(91, 144, 224);
+            font-family: 'Open Sans', sans-serif;
+            display: flex; /* Add display flex to make navbar and logo inline */
+            align-items: center; /* Center the navbar and logo vertically */
+            justify-content: space-between; /* Space between navbar and logo */
+            padding: 5px; /*Add padding for better spacing*/
+        }
+
+        /* Style for the logo */
+        #logo{
+            width:250px;
+            height:140px;
+        }
+
+        /* Style for the navbar */
+        .navbar{
+            display: flex; /* Make navbar links inline */
+        /* justify-content: space-between; Space between navbar links */
+            width: 50%; /* Set width for navbar */
+        }
+
+        .navbar a {
+            color: #181717;
+            text-align: center;
+            align-items: left;
+            padding: 5px 36px;
+            text-decoration: none;
+            font-size: 17px;
+            
+        }
+        .laptopPic{
+            width: 100%;
+            height: 300px;
+        }
+        .box{
+            width:100%;
+            height:5px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="tab">
+            <img src="panacloud.png" alt="panacloud" id="logo">
+            <nav class="navbar">
+                <a href="home.html">HOME</a>
+                <a href="about.html">ABOUT</a> 
+                <a href="portfolio.html">PORTFOLIO</a> 
+                <a href="contact.html">CONTACT</a>
+            </nav>
+          
+        </div> </header>
+        <br> 
+            <img src="laptop.jpeg" alt="laptop"class="laptopPic">
+             <div>
+                <p> STC is an innovator in the digital world, we help our clients identify new opportunities, lead change, and differentiate their brand. Our process is driven by data analysis coupled with as deep understanding of the customer experience. Whether clients need digital marketing services or consulting, they come to us to present themselves effectively in the digital arena.</p>
+             </div> 
+             <footer>
+                <box class="box">
+                    <p>copyright 2019. All right reserved </p>
+                </box>
+             </footer>
+</body>
+</html>
