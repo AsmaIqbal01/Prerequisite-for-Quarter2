@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+    font-size: 12px;
+    border:2px solid black
+}
+td {
+    border: 2px double black;
+    text-align: center;
+    padding: 20px;
+}
+.element {
+    width: 20px;
+    height: 40px;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+.orange{
+background-color: rgb(240, 128, 88);
+}
+.lilac{
+background-color: rgb(201, 111, 201);
+}
+.blue{
+background-color: rgb(116, 116, 228);
+}
+.pink{
+background-color: rgb(221, 160, 170);
+}
+.yellow{
+background-color: yellow;
+}
+.darkPink{
+background-color: rgb(228, 128, 133);
+}
+.lightBlue{
+background-color:rgb(120, 134, 253)
+}
+.brown{
+background-color: rgb(131, 74, 40);
+}
+.green{
+background-color: rgba(9, 116, 41, 0.801);
+}
+.yellorange{
+background-color: rgb(212, 148, 52);
+}

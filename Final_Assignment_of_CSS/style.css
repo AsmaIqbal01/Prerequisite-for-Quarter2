@@ -1,0 +1,54 @@
+.container {
+    border: 8px solid orange;
+    list-style: none;
+    padding: 24px; /* Added units */
+    margin: 24px; /* Added units */
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap */
+}
+
+.circle {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    background-color: rgb(58, 54, 54); /* Dark gray color */
+    color: white;
+    border-radius: 50%; /* Makes it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px; /* Font size for the letter */
+    font-weight: bold; /* Makes the letter bold */
+    text-decoration: none; /* Removes underline from links */
+    margin: 0 5px; /* Adds some space between circles */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.circle:hover {
+    background-color: rgb(34, 34, 34); /* Darker shade on hover */
+    text-decoration: none;
+}
+
+.phone-number {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    color: white; /* Sets the text color to white */
+    margin-right: 15px; /* Space between phone numbers */
+}
+
+.btn {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 20px; /* Add padding for better click area */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: darkgreen; /* Change color on hover */
+}
+
+#navbarNav {
+    align-items: center;
+    margin-right: 5px; 
+}
